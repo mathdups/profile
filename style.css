@@ -1,0 +1,92 @@
+body {
+  color: #3F3F3F;
+  background-color: #00204A;
+  color: black;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h2 {
+  color: #3F3F3F;
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  line-height: 2;
+}
+
+h3 {
+  color: #3F3F3F;
+  font-family: 'Roboto Slab';
+  font-weight: 400;
+  line-height: 2;
+}
+
+p, li {
+  color: #3F3F3F;
+  font-family: 'Roboto Slab';
+  font-weight: 300;
+  line-height: 2;
+}
+
+i {
+  color: #005792;
+}
+
+a {
+  color: #00BBF0;
+  text-decoration: none;
+}
+
+
+.card {
+  background: #DFDFDF;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  /*margin: 40 150;*/
+  padding: 60;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 1300px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.imageprofil {
+  border: 2px solid #00204A;
+  box-shadow: 1px 1px 1px #00204A;
+}
+
+.a.btn-blue {
+  background-color: #00204A;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+
+@media (max-width: 1300px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 400px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .card {
+    width: 300px;
+  }
+}
